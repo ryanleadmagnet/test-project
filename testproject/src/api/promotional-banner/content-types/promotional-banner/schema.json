@@ -1,0 +1,30 @@
+{
+    "kind": "singleType",
+    "collectionName": "promotional_banners",
+    "info": {
+        "singularName": "promotional-banner",
+        "pluralName": "promotional-banners",
+        "displayName": "Promotional Banner"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "subtitle": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "allowedTypes": [
+                "images"
+            ]
+        }
+    }
+}
